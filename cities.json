@@ -1,0 +1,89 @@
+[{"city":"Mostar",
+	"country": "Bosnia and Herzegovina",
+	"description":"This beautiful small city in Bosnia and Herzegovina has it all: gorgeous natural surroundings, great architecture and a very rich (yet tough) history. It’s a must visit for any traveller who wants to visit the more unknown pearls of Europe.",
+	"image":"/img/mostar.jpg",
+	"imagemedium":"/img/newyork2.jpg"
+
+}, 
+{
+	"city":"Vama Veche",
+	"country": "Romania",
+	"description":"One of the cutest and prettiest cities of Europe, Lviv combines beautiful architecture with a true Eastern feel. You simply cannot skip visiting Lviv on your next Eurotrip!",
+	"image":"/img/romania.jpg",
+	"imagemedium":"/img/newyork2.jpg"
+}, 
+{
+	"city":"Berlin",
+	"country": "Germany",
+	"description":"This city needs no introduction. You’ll find anything here: from history, to architecture, to culture and many more. Berlin is a truly unique modern city for anyone who visits it.",
+	"image":"/img/berlin.jpg",
+	"imagemedium":"/img/newyork2.jpg"
+},
+{"city":"Belgrade",
+	"country": "Serbia",
+	"description":"Belgrade is another (slightly) hidden gem within the Balkan region of Europe. It’s a large city for European standards, but the city center feels nice and homely. A city where you can taste the real Serbian spirit(s) – especially at night!",
+	"image":"/img/serbia.jpg",
+	"imagemedium":"/img/newyork2.jpg"
+}, 
+{
+	"city":"Lisbon",
+	"country": "Portugal",
+	"description":"You will certainly love visiting Lisbon. The Portuguese capital can be described no else as authentic, fun and beautiful!",
+	"image":"/img/lisbon.jpg",
+	"imagemedium":"/img/newyork2.jpg"
+}, 
+{
+	"city":"Paraty",
+	"country": "Brazil",
+	"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tellus lorem, hendrerit eu est non, varius convallis massa. Sed eleifend vulputate dui ut suscipit. Proin convallis ultricies ullamcorper. Phasellus at hendrerit arcu, eget malesuada metus. Nullam non mi ut est consequat cursus in ultricies augue.",
+	"image":"/img/paraty.jpg",
+	"imagemedium":"/img/newyork2.jpg"
+}, 
+{
+	"city":"Valparaiso",
+	"country": "Chile",
+	"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tellus lorem, hendrerit eu est non, varius convallis massa. Sed eleifend vulputate dui ut suscipit. Proin convallis ultricies ullamcorper. Phasellus at hendrerit arcu, eget malesuada metus. Nullam non mi ut est consequat cursus in ultricies augue.",
+	"image":"/img/valparaiso.jpg",
+	"imagemedium":"/img/newyork2.jpg"
+}, 
+{
+	"city":"Mendoza",
+	"country": "Argentina",
+	"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tellus lorem, hendrerit eu est non, varius convallis massa. Sed eleifend vulputate dui ut suscipit. Proin convallis ultricies ullamcorper. Phasellus at hendrerit arcu, eget malesuada metus. Nullam non mi ut est consequat cursus in ultricies augue.",
+	"image":"/img/newyork.jpg",
+	"imagemedium":"/img/newyork2.jpg"
+}, 
+{
+	"city":"Potosi",
+	"country": "Bolivia",
+	"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tellus lorem, hendrerit eu est non, varius convallis massa. Sed eleifend vulputate dui ut suscipit. Proin convallis ultricies ullamcorper. Phasellus at hendrerit arcu, eget malesuada metus. Nullam non mi ut est consequat cursus in ultricies augue.",
+	"image":"/img/newyork.jpg",
+	"imagemedium":"/img/newyork2.jpg"
+}, 
+{
+	"city":"Huaraz",
+	"country": "Peru",
+	"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tellus lorem, hendrerit eu est non, varius convallis massa. Sed eleifend vulputate dui ut suscipit. Proin convallis ultricies ullamcorper. Phasellus at hendrerit arcu, eget malesuada metus. Nullam non mi ut est consequat cursus in ultricies augue.",
+	"image":"/img/huaraz.jpg",
+	"imagemedium":"/img/newyork2.jpg"
+}, {
+	"city":"Puerto Narino",
+	"country": "Amazone",
+	"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tellus lorem, hendrerit eu est non, varius convallis massa. Sed eleifend vulputate dui ut suscipit. Proin convallis ultricies ullamcorper. Phasellus at hendrerit arcu, eget malesuada metus. Nullam non mi ut est consequat cursus in ultricies augue.",
+	"image":"/img/puerto.jpg",
+	"imagemedium":"/img/newyork2.jpg"
+}, {
+	"city":"Guatape",
+	"country": "Colombia",
+	"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tellus lorem, hendrerit eu est non, varius convallis massa. Sed eleifend vulputate dui ut suscipit. Proin convallis ultricies ullamcorper. Phasellus at hendrerit arcu, eget malesuada metus. Nullam non mi ut est consequat cursus in ultricies augue.",
+	"image":"/img/guatape.jpg",
+	"imagemedium":"/img/newyork2.jpg"
+}, 
+{
+	"city":"Torres del Paine",
+	"country": "Chile",
+	"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tellus lorem, hendrerit eu est non, varius convallis massa. Sed eleifend vulputate dui ut suscipit. Proin convallis ultricies ullamcorper. Phasellus at hendrerit arcu, eget malesuada metus. Nullam non mi ut est consequat cursus in ultricies augue.",
+	"image":"/img/Torres.jpg",
+	"imagemedium":"/img/newyork2.jpg"
+}
+]

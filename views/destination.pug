@@ -1,0 +1,23 @@
+extends ./partials.pug
+block content
+	
+	section.city
+		
+		div(class="image", style='background-image: url('+ cityPicker.image +');') 
+			//- img(src=cityPicker.image)
+		//- h1 Our pick for you:
+
+			//- .pick
+			
+		//- img(src="/img/newyork.jpg")
+		
+		div.city-content
+
+			h2 #{cityPicker.city} - 
+					span(font-size: 10px) #{cityPicker.country}
+
+
+			button.btn.btn-2(onClick="location.href='/destination/" + cityPicker.country + "'") Give me more info
+		p Not happy?
+			a(onClick="location.href='/destination'", value='click here')  Try Again!
+		//- button.btn.btn-1(onClick="location.href='/destination'" value='click here') Let's give it another try

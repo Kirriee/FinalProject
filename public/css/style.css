@@ -1,0 +1,444 @@
+/* ==========================================================================
+   GENERAL STYLING
+   ========================================================================== */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body, html {
+    height: 100%;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+
+
+}
+
+ul{
+	list-style-type: none;
+}
+
+h1{
+	font-family:'Montserrat', sans-serif;
+	text-transform: uppercase;
+  font-weight: 700;
+
+}
+
+
+/* ==========================================================================
+   HEADER INDEX
+   ========================================================================== */
+
+
+header{
+	background-image: url(../img/suitcase60.jpg) ;
+	background-size:cover;
+	background-position: center;
+	height:100vh;
+	
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items:center;
+}
+
+header h1{
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 50px;
+
+}
+
+header h3{
+	margin-bottom: 50px;
+}
+
+/* ==========================================================================
+   BUTTON
+   ========================================================================== */
+
+.btn {
+	border: 3px solid;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 25px 40px;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* Pseudo elements for icons */
+.btn:before,
+.icon-heart:after,
+.icon-star:after,
+.icon-plus:after,
+.icon-file:before {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Button  */
+.btn-1 {
+	color: black;
+	
+	
+}
+
+.btn-1:hover {
+	background:#F5F5F5;
+	/*color: white;*/
+	border:none;
+}
+
+.btn-1:active {
+	box-shadow: 0 0 #ab3c3c;
+	top: 6px;
+}
+
+.btn-2{
+	color:white;
+	position: absolute;
+	top: 65%;
+}
+
+
+
+/* ==========================================================================
+   DESTINATION PAGE
+   ========================================================================== */
+
+
+.city{
+	/*background-image: url(../img/sky.jpg);
+	background-size:cover;*/
+	background-color: #fff;
+	height:100vh;
+	background-position: bottom;
+	position: absolute;
+	margin-bottom: 50px;
+	border: 3px red dotted;
+	width: 100%;
+
+/*	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items: center;*/
+}
+
+.city h1{
+	font-weight:700;
+	text-align:center; 
+	line-height:25px;
+	font-size: 50px;
+
+
+}
+
+.city h2{
+	position: absolute;
+	top: 50%;
+	color: white;
+	font-family: 'Boogaloo', sans-serif;
+	font-size: 60px;
+}
+
+.city img{
+	width: 100%;
+    height: auto;
+    /*width: auto\9; /* ie8 */*/
+
+}
+.city p{
+	text-align: center;
+}
+
+.city-content{
+	position: absolute
+	top: 50%;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items: center;
+	border: 3px yellow solid;
+}
+
+.countryimage{
+	width: 100%;
+	border: solid green 4px;
+
+	position:relative;
+}
+
+.countryimage img{
+	height: 100%
+	width: 100%;
+	
+}
+
+.image{
+	background-size: cover;
+	height: 100%;
+}
+
+.medium{
+	height:100vh;
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.countryimage h1{
+	position: absolute;
+	top: 45%;
+	left:50%;
+	color: white;
+	font-family: 'Boogaloo', sans-serif;
+	font-size: 60px;
+	margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+	border: solid green 4px;
+
+}
+
+	.card-title {
+		background: rgba(157, 187, 63, .85);
+		padding: 3.5% 0 2.5% 0;
+		color: white;
+		font-family: 'Roboto Condensed', sans-serif;
+		text-transform: uppercase;
+		position: absolute;
+		bottom: 0;
+		width: 300px;
+		
+	}
+
+.card-title h3 {
+			font-size: 1.2em;
+			line-height: 1.2;
+			padding: 0 3.5%;
+			margin: 0;
+		}
+.container-fluid{
+	margin: 200px auto;
+}
+
+.square{
+	width: 300px;
+	min-height: 300px;
+	border: #ccc solid 1px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0   rgba(0,0,0,.12);
+
+}
+
+.square p{
+	padding: 20px;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+i{
+	margin: 20px;
+}
+
+.call-outs-container{
+	display:flex;
+	max-width:100%;
+	margin: 40px auto 0 auto;
+}
+
+.call-out{
+	padding: 20px;
+	margin-bottom: 20px;
+	flex: 1;
+}
+.wrapper{
+	width: 100%;
+	max-width:1200px;
+	margin: 0 auto;
+}
+
+.container-fluid{
+	display:flex;
+	border: 4px dotted orange;
+	flex-wrap:wrap;
+	justify-content: space-around;
+}
+
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+.icon-background{
+	color: #74fc74;
+}
+.test{
+	background:red;
+	width: 200px;
+}
+
+
+.middle{
+	text-align:center;
+}
+
+/*.square {
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
+ /*   margin:1.66%;
+    background-color:#1E1E1E;
+    overflow:hidden;
+
+.content {
+    position:absolute;
+    height:90%;  = 100% - 2*5% padding 
+    width:90%; /* = 100% - 2*5% padding 
+    padding: 5%;
+    
+}*/
+
+
+/*.navbar-default {
+	background-color: white;
+	border-color: rgba(34, 34, 34, 0.05);
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	-webkit-transition: all 0.35s;
+	-moz-transition: all 0.35s;
+	transition: all 0.35s;
+}
+.navbar-default .navbar-header .navbar-brand {
+	color: #2ECC71;
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+	color: #eb3812;
+}
+.navbar-default .navbar-header .navbar-toggle {
+	font-weight: 700;
+	font-size: 12px;
+	color: #222222;
+	text-transform: uppercase;
+}
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a:focus {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 13px;
+	color: #222222;
+}
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus:hover {
+	color: #F05F40;
+}
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus {
+	color: #F05F40 !important;
+	background-color: transparent;
+}
+.navbar-default .nav > li.active > a:hover,
+.navbar-default .nav > li.active > a:focus:hover {
+	background-color: transparent;
+}
+@media (min-width: 768px) {
+	.navbar-default {
+		background-color: transparent;
+		border-color: rgba(255, 255, 255, 0.3);
+	}
+	.navbar-default .navbar-header .navbar-brand {
+		color: rgba(255, 255, 255, 0.7);
+	}
+	.navbar-default .navbar-header .navbar-brand:hover,
+	.navbar-default .navbar-header .navbar-brand:focus {
+		color: white;
+	}
+	.navbar-default .nav > li > a,
+	.navbar-default .nav > li > a:focus {
+		color: rgba(255, 255, 255, 0.7);
+	}
+	.navbar-default .nav > li > a:hover,
+	.navbar-default .nav > li > a:focus:hover {
+		color: white;
+	}
+	.navbar-default.affix {
+		background-color: white;
+		border-color: rgba(34, 34, 34, 0.05);
+	}
+	.navbar-default.affix .navbar-header .navbar-brand {
+		color: #2ECC71;
+		font-size: 14px;
+	}
+	.navbar-default.affix .navbar-header .navbar-brand:hover,
+	.navbar-default.affix .navbar-header .navbar-brand:focus {
+		color: #eb3812;
+	}
+	.navbar-default.affix .nav > li > a,
+	.navbar-default.affix .nav > li > a:focus {
+		color: #222222;
+	}
+	.navbar-default.affix .nav > li > a:hover,
+	.navbar-default.affix .nav > li > a:focus:hover {
+		color: #2ECC71;
+	}
+}*/
+
+.about h1{
+	margin-left: 30%;
+}
+
+.about p{
+	width:500px;
+	margin-left:30%;
+}
+
+ .description{
+	margin: 50px auto;
+}
+
+.section-heading h1{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+#about-heading{
+	margin-top:0px;
+}
