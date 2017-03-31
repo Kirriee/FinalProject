@@ -12,26 +12,27 @@ block content
 	//- 			|
 	//- 			a.navbar-brand.page-scroll(href='#page-top') Travel Next
 
-	//- 		#navbar.collapse.navbar-collapse
-	//- 			ul.nav.navbar-nav.navbar-right
-	//- 				li
-	//- 					a.page-scroll(href='#about') About
-	//- 				li
-	//- 					a.page-scroll(href='#services') Contact
-	//- 				li
-	//- 					a.page-scroll(href='#portfolio') Portfolio
-	//- 				li
-	//- 					a.page-scroll(href='#contact') Contact
+			//- #navbar.collapse.navbar-collapse
+			//- 	ul.nav.navbar-nav.navbar-right
+			//- 		li
+			//- 			a.page-scroll(href='#about') About
+			//- 		li
+			//- 			a.page-scroll(href='#services') Contact
+			//- 		li
+			//- 			a.page-scroll(href='#portfolio') Portfolio
+			//- 		li
+			//- 			a.page-scroll(href='#contact') Contact
 
 
 
 
 	header.index
-		h1 Where to travel next?
-		h3 We will help you! 
-		p I created an app that generates travel location based on my own travel experiences
-		
-		button.btn.btn-1(onClick="location.href='/destination'" value='click here') Find a destination
+		h1 Where 
+			span to travel next?
+			span
+				//- h3 We will help you! 
+		p#sub-title Travel Next generates locations based on my own travel experiences! 
+		button.btn.btn-1.btn-red(onClick="location.href='/destination'" value='random') Find a destination
 
 
 

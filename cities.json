@@ -1,89 +1,77 @@
-[{"city":"Mostar",
-	"country": "Bosnia and Herzegovina",
-	"description":"This beautiful small city in Bosnia and Herzegovina has it all: gorgeous natural surroundings, great architecture and a very rich (yet tough) history. It’s a must visit for any traveller who wants to visit the more unknown pearls of Europe.",
-	"image":"/img/mostar.jpg",
-	"imagemedium":"/img/newyork2.jpg"
-
-}, 
-{
-	"city":"Vama Veche",
-	"country": "Romania",
-	"description":"One of the cutest and prettiest cities of Europe, Lviv combines beautiful architecture with a true Eastern feel. You simply cannot skip visiting Lviv on your next Eurotrip!",
-	"image":"/img/romania.jpg",
-	"imagemedium":"/img/newyork2.jpg"
-}, 
-{
-	"city":"Berlin",
-	"country": "Germany",
-	"description":"This city needs no introduction. You’ll find anything here: from history, to architecture, to culture and many more. Berlin is a truly unique modern city for anyone who visits it.",
-	"image":"/img/berlin.jpg",
-	"imagemedium":"/img/newyork2.jpg"
-},
-{"city":"Belgrade",
-	"country": "Serbia",
-	"description":"Belgrade is another (slightly) hidden gem within the Balkan region of Europe. It’s a large city for European standards, but the city center feels nice and homely. A city where you can taste the real Serbian spirit(s) – especially at night!",
-	"image":"/img/serbia.jpg",
-	"imagemedium":"/img/newyork2.jpg"
-}, 
-{
-	"city":"Lisbon",
-	"country": "Portugal",
-	"description":"You will certainly love visiting Lisbon. The Portuguese capital can be described no else as authentic, fun and beautiful!",
-	"image":"/img/lisbon.jpg",
-	"imagemedium":"/img/newyork2.jpg"
-}, 
+[
+	
 {
 	"city":"Paraty",
 	"country": "Brazil",
-	"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tellus lorem, hendrerit eu est non, varius convallis massa. Sed eleifend vulputate dui ut suscipit. Proin convallis ultricies ullamcorper. Phasellus at hendrerit arcu, eget malesuada metus. Nullam non mi ut est consequat cursus in ultricies augue.",
-	"image":"/img/paraty.jpg",
-	"imagemedium":"/img/newyork2.jpg"
+	"description":"On arrival in Paraty, you’ll feel like you’ve taken a step back in time. Whitewashed houses line the cobblestone streets, children play in the town square, and horses clip clop past elegant baroque churches. The entire historic center is a UNESCO World Heritage Site, and it has a simple beauty that makes it a wonderfully relaxing place to stroll around. ",
+	"image":"/img/paraty2.jpg",
+	"poloroid":"/img/paraty3.jpg",
+	"caption":"Island"
+
 }, 
 {
 	"city":"Valparaiso",
 	"country": "Chile",
-	"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tellus lorem, hendrerit eu est non, varius convallis massa. Sed eleifend vulputate dui ut suscipit. Proin convallis ultricies ullamcorper. Phasellus at hendrerit arcu, eget malesuada metus. Nullam non mi ut est consequat cursus in ultricies augue.",
-	"image":"/img/valparaiso.jpg",
-	"imagemedium":"/img/newyork2.jpg"
+	"description":"Syncopated, dilapidated, colorful and poetic, Valparaíso is a wonderful mess. Pablo Neruda, who drew much inspiration from this hard-working port town, said it best: 'Valparaíso, how absurd you are…you haven't combed your hair, you've never had time to get dressed, life has always surprised you.'But Neruda wasn't the only artist to fall for Valparaíso's unexpected charms.",
+	"image":"/img/valparaiso2.jpg",
+	"poloroid":"/img/valparaiso3.jpg",
+	"caption":"Streetart"
+
 }, 
-{
-	"city":"Mendoza",
-	"country": "Argentina",
-	"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tellus lorem, hendrerit eu est non, varius convallis massa. Sed eleifend vulputate dui ut suscipit. Proin convallis ultricies ullamcorper. Phasellus at hendrerit arcu, eget malesuada metus. Nullam non mi ut est consequat cursus in ultricies augue.",
-	"image":"/img/newyork.jpg",
-	"imagemedium":"/img/newyork2.jpg"
-}, 
-{
-	"city":"Potosi",
-	"country": "Bolivia",
-	"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tellus lorem, hendrerit eu est non, varius convallis massa. Sed eleifend vulputate dui ut suscipit. Proin convallis ultricies ullamcorper. Phasellus at hendrerit arcu, eget malesuada metus. Nullam non mi ut est consequat cursus in ultricies augue.",
-	"image":"/img/newyork.jpg",
-	"imagemedium":"/img/newyork2.jpg"
-}, 
+
 {
 	"city":"Huaraz",
 	"country": "Peru",
-	"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tellus lorem, hendrerit eu est non, varius convallis massa. Sed eleifend vulputate dui ut suscipit. Proin convallis ultricies ullamcorper. Phasellus at hendrerit arcu, eget malesuada metus. Nullam non mi ut est consequat cursus in ultricies augue.",
+	"description":"Huaraz is the restless capital of this Andean adventure kingdom and its rooftops command exhaustive panoramas of the city's dominion: one of the most impressive mountain ranges in the world. Nearly wiped out by the earthquake of 1970, Huaraz isn’t going to win any Andean-village beauty contests anytime soon, but it does have personality – and personality goes a long way.",
 	"image":"/img/huaraz.jpg",
-	"imagemedium":"/img/newyork2.jpg"
+	"poloroid":"/img/huaraz2.jpg",
+	"caption":"Laguna 69"
+
+
 }, {
 	"city":"Puerto Narino",
 	"country": "Amazone",
-	"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tellus lorem, hendrerit eu est non, varius convallis massa. Sed eleifend vulputate dui ut suscipit. Proin convallis ultricies ullamcorper. Phasellus at hendrerit arcu, eget malesuada metus. Nullam non mi ut est consequat cursus in ultricies augue.",
-	"image":"/img/puerto.jpg",
-	"imagemedium":"/img/newyork2.jpg"
-}, {
-	"city":"Guatape",
-	"country": "Colombia",
-	"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tellus lorem, hendrerit eu est non, varius convallis massa. Sed eleifend vulputate dui ut suscipit. Proin convallis ultricies ullamcorper. Phasellus at hendrerit arcu, eget malesuada metus. Nullam non mi ut est consequat cursus in ultricies augue.",
-	"image":"/img/guatape.jpg",
-	"imagemedium":"/img/newyork2.jpg"
+	"description":"The tiny Amazonian village of Puerto Nariño, 75km upriver from Leticia, is living proof that humans and nature can peacefully coexist. Puerto Nariño has elevated the concept of green living to an art form. Motorized cars are banned (the only two vehicles here are an ambulance and a truck for collecting recycling). The spotless town is laid out on a grid of landscaped, pedestrian-only sidewalks.",
+	"image":"/img/amazone.jpg",
+	"poloroid":"/img/amazone2.jpg",
+	"caption":"Monkey"
+
 }, 
 {
 	"city":"Torres del Paine",
-	"country": "Chile",
-	"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tellus lorem, hendrerit eu est non, varius convallis massa. Sed eleifend vulputate dui ut suscipit. Proin convallis ultricies ullamcorper. Phasellus at hendrerit arcu, eget malesuada metus. Nullam non mi ut est consequat cursus in ultricies augue.",
-	"image":"/img/Torres.jpg",
-	"imagemedium":"/img/newyork2.jpg"
+	"country": "Patagonia",
+	"description":"Soaring almost vertically more than 2000m above the Patagonian steppe, the granite pillars of Torres del Paine (Towers of Paine) dominate the landscape of what may be South America's finest national park. Before its creation in 1959, the park was part of a large sheep estancia, and it's still recovering from nearly a century of overexploitation of its pastures, forests and wildlife.",
+	"image":"/img/torres2.jpg",
+	"poloroid":"/img/torres3.jpg",
+	"caption":"National Park"
+
+},
+ 
+{
+	"city":"Salento",
+	"country": "Colombia",
+	"description":"Set amid gorgeous green mountains 24km northeast of Armenia, this small town survives on coffee production, trout farming and, increasingly, tourists, who are drawn by its quaint streets, typical paisa architecture and its proximity to the spectacular Valle de Cocora. It was founded in 1850, and is one of the oldest towns in Quindío.",
+	"image":"/img/salento.jpg",
+	"poloroid":"/img/salento2.jpg",
+	"caption":"Colorful House"
+
+},
+{
+	"city":"Uyuni",
+	"country": "Bolivia",
+	"description":"Salar de Uyuni (or Salar de Tunupa) is the world's largest salt flat at 10,582 square kilometers (4,086 sq mi). It is located in the Daniel Campos Province in Potosí in southwest Bolivia, near the crest of the Andes and is at an elevation of 3,656 meters (11,995 ft) above sea level",
+	"image":"/img/uyuni.jpg",
+	"poloroid":"/img/uyuni2.jpg",
+	"caption":"Flamingo's"
+
+},
+{
+	"city":"Cabo Poloino",
+	"country": "Uruguay",
+	"description":"Northeast of La Paloma at Km264.5 on Ruta 10 lies the turnoff to Cabo Polonio, one of Uruguay’s wildest areas and home to its second-biggest sea-lion colony, near a tiny fishing village nestled in sand dunes on a windswept point crowned by a lonely lighthouse. In 2009 the region was declared a national park, under the protective jurisdiction of Uruguay’s SNAP program",
+	"image":"/img/cabo.jpg",
+	"poloroid":"/img/cabo2.jpg",
+	"caption":"Cutie"
+
 }
 ]

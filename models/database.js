@@ -25,11 +25,19 @@ const Destination = db.define('destination', {
 		type:Sequelize.STRING,
 		allowNull:false, 
 	},
+	description:{
+		type:Sequelize.TEXT,
+		allowNull:false, 
+	},
 	image:{
 		type:Sequelize.STRING,
 		allowNull:false,
 	},
-	imagemedium:{
+	poloroid:{
+		type:Sequelize.STRING,
+		allowNull:false,
+	},
+	caption:{
 		type:Sequelize.STRING,
 		allowNull:false,
 	}
@@ -49,8 +57,10 @@ db.sync({
 			Destination.create({
 				city: (cities[i].city),
 				country: (cities[i].country),
+				description:(cities[i].description),
 				image:(cities[i].image),
-				imagemedium:(cities[i].imagemedium)
+				poloroid:(cities[i].poloroid),
+				caption:(cities[i].caption)
 
 			})
 		}

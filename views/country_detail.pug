@@ -10,47 +10,51 @@ block content
 				//- 	h3 Title
 				//- 	p Some Description
 			
-			h1 #{country.country}
-				img(src='/../img/icon.png')
+			#location #{country.country}
+				img#locationimg(src='/../img/icon.png')
 
 			
 	section.description
 		.container
 			.row
 				.col-md-4.middle
-					img(src='/img/cabin.png' class="img-responsive")
-				.col-md-8.middle.about
-					h1#about-heading.section-heading About this place
+					.polaroid-images
+						a(href='', title=country.caption)
+							img(src=country.poloroid height='200',class="img-responsive")
+						//- img(height='200', src='images/water.jpg', alt='Cave', title='Cave')
+							
+				.about
+					h1#about-heading.section-heading About #{country.city}
 
-					p.text-center Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rutrum tincidunt felis, sit amet ullamcorper libero hendrerit sit amet. In sagittis orci eros, eu consectetur tellus iaculis a. Duis imperdiet mauris sit amet sapien dapibus, non porta sapien sollicitudin. Nunc ex felis, faucibus eget ipsum eu, commodo faucibus odio. Nulla non pharetra ipsum. Aenean luctus luctus fermentum. In venenatis lorem ac nunc sagittis interdum. Aenean venenatis in est elementum pulvinar. Vestibulum elementum sed urna sed tempor. Vestibulum ante justo, consequat sed eros consectetur, ultrices lacinia lectus. Maecenas ac luctus erat.
-	section.facts
-		.container
-			.row
-				.col-sm-12.text-center
-					h1.section-heading Facts
-				.col-md-3.middle
-					span.fa-stack.fa-4x
-						i.fa.fa-circle.fa-stack-2x.icon-background
-						i.fa.fa-comment.fa-stack-1x.fa-inverse
-					h4.service-heading English
-					//- p.text-muted English
-				.col-md-3.middle
-					span.fa-stack.fa-4x
-						i.fa.fa-circle.fa-stack-2x.icon-background
-						i.fa.fa-money.fa-stack-1x.fa-inverse
-					h4.service-heading Currency
-					//- p Dollar
+					p.text-left #{country.description}
+	//- section.facts
+	//- 	.container
+	//- 		.row
+	//- 			.col-sm-12.text-center
+	//- 				h1.section-heading Facts
+	//- 			.col-md-3.middle
+	//- 				span.fa-stack.fa-4x
+	//- 					i.fa.fa-circle.fa-stack-2x.icon-background
+	//- 					i.fa.fa-comment.fa-stack-1x.fa-inverse
+	//- 				h4.service-heading English
+	//- 				//- p.text-muted English
+	//- 			.col-md-3.middle
+	//- 				span.fa-stack.fa-4x
+	//- 					i.fa.fa-circle.fa-stack-2x.icon-background
+	//- 					i.fa.fa-money.fa-stack-1x.fa-inverse
+	//- 				h4.service-heading Currency
+	//- 				//- p Dollar
 					
-				.col-md-3.middle
-					span.fa-stack.fa-4x
-						i.fa.fa-circle.fa-stack-2x.icon-background
-						i.fa.fa-users.fa-stack-1x.fa-inverse
-					h4 XXXX
-				.col-md-3.middle
-					span.fa-stack.fa-4x
-						i.fa.fa-circle.fa-stack-2x.icon-background
-						i.fa.fa-time.fa-stack-1x.fa-inverse
-					h4 GWT +1
+	//- 			.col-md-3.middle
+	//- 				span.fa-stack.fa-4x
+	//- 					i.fa.fa-circle.fa-stack-2x.icon-background
+	//- 					i.fa.fa-users.fa-stack-1x.fa-inverse
+	//- 				h4 XXXX
+	//- 			.col-md-3.middle
+	//- 				span.fa-stack.fa-4x
+	//- 					i.fa.fa-circle.fa-stack-2x.icon-background
+	//- 					i.fa.fa-time.fa-stack-1x.fa-inverse
+	//- 				h4 GWT +1
 
 	.countryimage
 		div(class="image medium ", style='background-image: url('+ country.image+');')

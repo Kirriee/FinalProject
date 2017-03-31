@@ -17,8 +17,16 @@ html
 		link(rel='stylesheet', type='text/css', href='../font-awesome-4.7.0/css/font-awesome.css')
 		link(rel='stylesheet', type='text/css', href='../css/style.css')
 	body
-
-	block content
+		nav#mainNav.navbar.navbar-default.navbar-fixed-top
+				.container-fluid
+					.navbar-header
+						button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+							span.sr-only Toggle navigation
+							| Menu
+							i.fa.fa-bars
+						|
+						a.navbar-brand.page-scroll(href='/destination') Travel Next
+		block content
 
 	
 

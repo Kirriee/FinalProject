@@ -1,9 +1,21 @@
 extends ./partials.pug
 block content
 	
-	section.city
-		
-		div(class="image", style='background-image: url('+ cityPicker.image +');') 
+	section.random
+		.city
+			div(class="image", style='background-image: url('+ cityPicker.image +');') 
+			#location #{cityPicker.city}, 
+
+				span#small #{cityPicker.country}
+		.buttons
+
+
+			p
+                
+				button.btn.btn-red.left(onClick="location.href='/destination/'") Another one
+				button.btn.btn-2.btn-2a.btn-red.right(onClick="location.href='/destination/" + cityPicker.country + "'") Take me there
+
+			
 			//- img(src=cityPicker.image)
 		//- h1 Our pick for you:
 
@@ -11,13 +23,13 @@ block content
 			
 		//- img(src="/img/newyork.jpg")
 		
-		div.city-content
+	//- div.city-content
 
-			h2 #{cityPicker.city} - 
-					span(font-size: 10px) #{cityPicker.country}
+	//- 		h2 #{cityPicker.city} - 
+	//- 				span(font-size: 10px) #{cityPicker.country}
 
-
-			button.btn.btn-2(onClick="location.href='/destination/" + cityPicker.country + "'") Give me more info
+	//- 		button.btn.btn-2.left(onClick="location.href='/destination/'") Let's try again
+	//- 		button.btn.btn-2.right(onClick="location.href='/destination/" + cityPicker.country + "'") Take me there
 		p Not happy?
 			a(onClick="location.href='/destination'", value='click here')  Try Again!
 		//- button.btn.btn-1(onClick="location.href='/destination'" value='click here') Let's give it another try
