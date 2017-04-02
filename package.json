@@ -4,6 +4,7 @@
   "description": "Final Project for the New York Code + Design Academy",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "'K de Haas",
