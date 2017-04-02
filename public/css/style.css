@@ -18,6 +18,11 @@ body{
 
 section{
 	overflow:hidden;
+
+}
+
+img{
+	vertical-align: 0;
 }
 
 ul{
@@ -52,17 +57,11 @@ header{
 header h1{
 	font-weight: 700;
 	text-transform: uppercase;
-	font-size: 70px;
-
-	
+	font-size: 56px;
     color: #fff;
-    padding: 8px;
-   
-	
 	font-family: 'Montserrat', sans-serif;
-	
     text-transform: uppercase;
-
+    text-align: center;
 }
 
 header h3{
@@ -74,9 +73,11 @@ header h3{
 #sub-title {
 	 font-weight: 300;
 text-align: center;
-  font-size: 28px;
+  font-size: 22px;
   margin-bottom: 50px;
   color:#fff;
+  letter-spacing: 1px;
+
 
 }
 
@@ -91,7 +92,7 @@ text-align: center;
 	color: inherit;
 	background: none;
 	cursor: pointer;
-	padding: 25px 40px;
+	padding: 13px 30px;
 	display: inline-block;
 	margin: 15px 30px;
 	text-transform: uppercase;
@@ -159,22 +160,22 @@ text-align: center;
 }*/
 
 .btn-red{
-	background: #cb4e4e;
+	/*background: #CB2127;*/
 	color: #fff;
-	box-shadow: 0 6px #ab3c3c;
+	/*box-shadow: 0 4px 0 0 #923133;*/
 	-webkit-transition: none;
 	-moz-transition: none;
 	transition: none;
 	border-radius: 0 0 5px 5px;
-	border:none;
+	/*border:none;*/
 }
 
 
 
 .btn-red:hover {
-	box-shadow: 0 4px #ab3c3c;
-	top: 2px;
-	color:white;
+	box-shadow: 0 2px 0 0 #923133;
+    transform: translateY(2px);
+    color:white;
 }
 
 
@@ -256,7 +257,8 @@ p
 
 .image{
 	background-size: cover;
-	height: 100%;
+	height: 100vh;
+	background-position-y: 30%
 }
 
 .medium{
@@ -394,42 +396,10 @@ i{
 	-moz-transition: all 0.35s;
 	transition: all 0.35s;
 }
-.navbar-default .navbar-header .navbar-brand {
-	color: #2ECC71;
-	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-	font-weight: 700;
-	text-transform: uppercase;
-}
-.navbar-default .navbar-header .navbar-brand:hover,
-.navbar-default .navbar-header .navbar-brand:focus {
-	color: #eb3812;
-}
-.navbar-default .navbar-header .navbar-toggle {
-	font-weight: 700;
-	font-size: 12px;
-	color: #222222;
-	text-transform: uppercase;
-}
-.navbar-default .nav > li > a,
-.navbar-default .nav > li > a:focus {
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 13px;
-	color: #222222;
-}
-.navbar-default .nav > li > a:hover,
-.navbar-default .nav > li > a:focus:hover {
-	color: #F05F40;
-}
-.navbar-default .nav > li.active > a,
-.navbar-default .nav > li.active > a:focus {
-	color: #F05F40 !important;
-	background-color: transparent;
-}
-.navbar-default .nav > li.active > a:hover,
-.navbar-default .nav > li.active > a:focus:hover {
-	background-color: transparent;
-}
+
+
+
+
 @media (min-width: 768px) {
 	.navbar-default {
 		background-color: transparent;
@@ -473,34 +443,35 @@ i{
 }
 
 .about{
-	margin-right:-700px;
+	margin-right:-4000px;
 }
 
-.about h1{
-	margin-left: 30%;
+.about h3{
+	margin-left: 10%;
+	text-transform: uppercase;
 }
 
 .about p{
-	width:500px;
-	margin-left:30%;
+	width:550px;
+	margin-left:10%;
 	color: #777;
 	line-height:25px;
 	font-size:15px;
 }
 
  .description{
-	margin: 50px auto;
+	margin: 35px auto;
 }
 
-.section-heading h1{
+.section-heading h3{
 	margin-top: 0px;
 	padding-top: 0px;
 	font-weight:400;
+	line-height: 0;
+	font-size:25px;
 }
 
-#about-heading{
-	margin-top:0px;
-}
+
 
 #location{
 	padding:0px;
@@ -509,14 +480,14 @@ i{
 	left:50%;
 	background-color: #fff;
     color: #000;
-    padding: 8px;
+    padding: 4px 0px 4px 4px;
     font-size: 25px;
     position: absolute;
 	
 	opacity: 0.9;
 	
 	font-family: 'Montserrat', sans-serif;
-	font-size: 60px;
+	font-size: 48px;
 	margin-right: -50%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
@@ -524,7 +495,7 @@ i{
 }
 
 #locationimg{
-	margin-bottom:22px;
+	
 	height:1em;
 }
 
@@ -534,9 +505,7 @@ i{
 		margin:20px 0px;
 
 	}
-	.about h1{
-		
-	}
+	
 
 	.about p{
 		
@@ -578,10 +547,12 @@ i{
 }
 
 .buttons{
-	position:absolute;
 	
-	top:  60%;
-	left: 35%;
+	position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 10%);
 }
 
 .sun-flower-button {
@@ -610,36 +581,95 @@ i{
 
 .random{
 	overflow:hidden;
+	height:100vh;
 }
 
-.polaroid-images a
+.polaroid-images 
 {
 	background: white;
 	display: inline;
 	float: left;
-	margin: 0 15px 30px;
-	padding: 10px 10px 25px;
+	margin:  36px 48px;
+	padding: 8px 8px 21px;
 	text-align: center;
 	text-decoration: none;
 	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
 	-moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
-	box-shadow: 0 4px 6px rgba(0,0,0,.3);
+	box-shadow: 0 8px 10px rgba(0,0,0,.3);
 	-webkit-transition: all .15s linear;
 	-moz-transition: all .15s linear;
 	transition: all .15s linear;
 	z-index:0;
         position:relative;
+        transform: rotate(-5deg);
+
 }
 
-.polaroid-images a:after {
+.polaroid-images:before{
+
+ /*see the support section below to more info on using the :before psuedo element*/
+content: '';
+display: block;
+position: absolute;
+left:-30px; /*postion from the left side of the frame (positive value move the tape right, negative moves it left)*/
+top: -5px; /*position from the top of the frame (positive move it above the frame, negative below)*/
+width: 75px; /*width of the tape*/
+height: 25px; /*height of the tape*/
+background-color: rgba(222,220,198,0.7); /*colour of the tape, use rgba to make it slightly transparent*/
+/*rotate the tape 12 degrees anti-clockwise*/
+-webkit-transform: rotate(-25deg);
+-moz-transform: rotate(-25deg);
+-o-transform: rotate(-25deg);
+-ms-transform: rotate(-25deg);
+
+    
+  
+  
+    background-color: rgba(222,220,198,0.7);
+    -webkit-transform: rotate(-25deg);
+    -moz-transform: rotate(-12deg);
+    -o-transform: rotate(-12deg);
+    -ms-transform: rotate(-12deg);
+}
+.polaroid-images:after {
+	content: '';
+	display: block;
+	position: absolute;
+	right:-30px;
+	width:75px;height:25px;
+	background-color: rgba(222,220,198,0.7);
+
+  top: -5px;
+  transform: rotate(30deg);
+}
+  /*  margin: 10px 48px;
+    padding: 8px 8px 21px;*/
+    
+
+/*.polaroid-images a:after {
+
 	color: #333;
 	font-size: 20px;
 	content: attr(title);
 	position: relative;
 	top:15px;
-}
+
+}*/
 
 .polaroid-images img { 
 	display: block; 
 	width: inherit; 
+}
+
+i{
+	color:red;
+}
+
+.polaroid-images p {
+  font-family: 'Kaushan Script' , cursive;
+  font-size: 1.6em;
+
+  
+  
+  color:red;
 }

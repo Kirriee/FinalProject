@@ -19,12 +19,14 @@ block content
 			.row
 				.col-md-4.middle
 					.polaroid-images
-						a(href='', title=country.caption)
-							img(src=country.poloroid height='200',class="img-responsive")
+						img(src=country.poloroid height='200',class="img-responsive")
+						
+						//- p #{country.caption}
 						//- img(height='200', src='images/water.jpg', alt='Cave', title='Cave')
+						//- a(href='', title=country.caption)
 							
 				.about
-					h1#about-heading.section-heading About #{country.city}
+					h3#about-heading.section-heading About #{country.city}
 
 					p.text-left #{country.description}
 	//- section.facts

@@ -61,5 +61,5 @@ app.get('/destination/:country', (req, res) => {
 
 // START THE SERVER
 app.listen(3000, function(){
-	console.log("The server has started")
+	console.log("The server has started and is listening on port 3000")
 })
