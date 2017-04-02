@@ -4,7 +4,7 @@
 // SET UP CONNECTION WITH DATABASE
 const Sequelize = require('sequelize')
 const fileReader = require (__dirname + "/../json-file-reader");
-var db = new Sequelize ('postgres://' + process.env.POSTGRES_USER + ':' + process.env.POSTGRES_PASSWORD + '@127.0.0.1/trips');
+const db = new Sequelize ('postgres://' + process.env.POSTGRES_USER + ':' + process.env.POSTGRES_PASSWORD + '@127.0.0.1/trips');
 
 // TESTING DATABASE CONNECTION
 db
