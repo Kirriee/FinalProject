@@ -4,12 +4,11 @@ block content
 			.navbar-header
 						|
 						a.navbar-brand.page-scroll(href='/') Home
-			
 						a.navbar-brand.page-scroll.try(href='/destination') Travel Next
-	section.countryimage
+	section.imagebackground
 		div(class="image medium ", style='background-image: url('+ country.image+');')
 		#location #{country.country}
-			img#locationimg(src='/../img/icon.png')
+			img#icon(src='/../img/icon.png')
 	section.description
 		.container
 			.row
@@ -18,10 +17,10 @@ block content
 						img(src=country.poloroid height='200',class="img-responsive")
 						p #{country.caption}
 				.about
-					h3#about-heading.section-heading About #{country.city}
+					h3.section-heading About #{country.city}
 					p.text-left #{country.description}
 	
-	.countryimage
+	.imagebackground
 		div(class="image medium ", style='background-image: url('+ country.image+');')
 					
 

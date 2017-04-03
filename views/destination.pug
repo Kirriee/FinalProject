@@ -4,12 +4,9 @@ block content
 			.navbar-header
 						|
 						a.navbar-brand.page-scroll(href='/') Home
-			
 						a.navbar-brand.page-scroll.try(href='/destination') Travel Next
 	section.pickcity
-		div(class="image", style='background-image: url('+ cityPicker.image +');') 
-		#location #{cityPicker.city}, #{cityPicker.country}
-		.buttons
-			button.btn.btn-2.btn-red(onClick="location.href='/destination/" + cityPicker.country + "'") Take me there
-
-		
+			div(class="image", style='background-image: url('+ cityPicker.image +');') 
+			#location #{cityPicker.city}, #{cityPicker.country}
+			.buttons
+				button.btn.btn-2.btn-red(onClick="location.href='/destination/" + cityPicker.country + "'") Take me there
