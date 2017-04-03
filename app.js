@@ -55,8 +55,6 @@ app.get('/destination/:country', (req, res) => {
 	
 })
 
-
-
 // start the server
 
 app.listen(process.env.PORT || 3000, function(){
