@@ -9,14 +9,16 @@
 
 body, html {
     height: 100%;
-
+ /*   overflow:hidden;*/
 }
 body{
 	font-family: 'Montserrat', sans-serif;
+	
 }
 
 section{
 	overflow:hidden;
+
 }
 
 img{
@@ -31,6 +33,7 @@ h1{
 	font-family:'Montserrat', sans-serif;
 	text-transform: uppercase;
  	/* font-weight: 700;*/
+
 }
 
 
@@ -61,17 +64,25 @@ header h1{
     text-align: center;
 }
 
-header p {
-	font-weight: 300;
+header h3{
+	/*margin-bottom: 50px;*/
 	text-align: center;
-  	font-size: 22px;
-  	margin-bottom: 50px;
-  	color:#fff;
-  	letter-spacing: 1px;
+	font-size: 40px;
+}
+
+#sub-title {
+	 font-weight: 300;
+text-align: center;
+  font-size: 22px;
+  margin-bottom: 50px;
+  color:#fff;
+  letter-spacing: 1px;
+
+
 }
 
 /* ==========================================================================
-   BUTTONS
+   BUTTON
    ========================================================================== */
 
 .btn {
@@ -85,8 +96,12 @@ header p {
 	display: inline-block;
 	margin: 15px 30px;
 	text-transform: uppercase;
+	/*letter-spacing: 1px;*/
 	font-weight: 700;
 	outline: none;
+	
+	
+	/*position:absolute;*/
 }
 
 .btn:after {
@@ -98,12 +113,36 @@ header p {
 	transition: all 0.3s;
 }
 
-/* Button index page  */
+/* Pseudo elements for icons */
+.btn:before,
+.icon-heart:after,
+.icon-star:after,
+.icon-plus:after,
+.icon-file:before {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Button  */
 .btn-1 {
 	color: black;
 	position:relative;
+	
+	
 }
-
+/*
+.btn-1:hover {
+	background:#F5F5F5;
+	/*color: white;*/
+/*	border:none;
+}*/*/
 
 .btn-1:active {
 	box-shadow: 0 0 #ab3c3c;
@@ -113,10 +152,12 @@ header p {
 .btn-2{
 	color:white;p
 	position: absolute;
-	top: 60%;
-	left:50%;
-
+	top: 65%;
 }
+
+/*.btn-2a:hover{
+	color:#2ecc71 ;
+}*/
 
 .btn-red{
 	background: #CB2127;
@@ -129,18 +170,12 @@ header p {
 	border:none;
 }
 
+
+
 .btn-red:hover {
 	box-shadow: 0 2px 0 0 #923133;
     transform: translateY(2px);
     color:white;
-}
-
-.buttons{
-	position: absolute;
-    top: 60%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, 10%);
 }
 
 
@@ -149,7 +184,10 @@ header p {
    ========================================================================== */
 
 
-.pickcity{
+.city{
+	/*background-image: url(../img/sky.jpg);
+	background-size:cover;*/
+	/*background-color: #fff;*/
 	height:100vh;
 	background-size:cover;
 	background-position: center;
@@ -159,24 +197,55 @@ header p {
 	margin-bottom: 50px;
 	overflow:hidden;
 	width: 100%;
+
+/*	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items: center;*/
 }
 
-.pickcity img{
+.city h1{
+	font-weight:700;
+	text-align:center; 
+	line-height:25px;
+	font-size: 50px;
+p
+
+
+}
+
+.city h2{
+	position: absolute;
+	top: 50%;
+	color: white;
+	font-family: 'Boogaloo', sans-serif;
+	font-size: 60px;
+}
+
+.city img{
 	width: 100%;
     height: auto;
-}
+    /*width: auto\9; /* ie8 */*/
 
-.pickcity p{
+}
+.city p{
 	text-align: center;
 }
 
-
-/* ==========================================================================
-   COUNTRY-DETAIL PAGE
-   ========================================================================== */
+.city-content{
+	position: absolute
+	top: 50%;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items: center;
+	border: 3px yellow solid;
+}
 
 .countryimage{
 	width: 100%;
+	/*border: solid green 4px;*/
+
 	position:relative;
 }
 
@@ -301,7 +370,22 @@ i{
 	text-align:center;
 }
 
+/*.square {
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
+ /*   margin:1.66%;
+    background-color:#1E1E1E;
+    overflow:hidden;
 
+.content {
+    position:absolute;
+    height:90%;  = 100% - 2*5% padding 
+    width:90%; /* = 100% - 2*5% padding 
+    padding: 5%;
+    
+}*/
 
 
 .navbar-default {
@@ -315,11 +399,12 @@ i{
 
 .navbar-right{
 	margin-right:0px;
-	color:red;
-
+	color: rgba(255, 255, 255, 0.7);
 }
 
-
+.try{
+	float:right;
+}
 
 
 
@@ -403,7 +488,7 @@ i{
 	left:50%;
 	background-color: #fff;
     color: #000;
-    padding: 4px;
+    padding: 4px 0px 4px 4px;
     font-size: 25px;
     position: absolute;
 	
@@ -424,12 +509,73 @@ i{
 
 
 
+.left{
+	left:35%;
+}
 
+.right{
+	right:35%;
+	font-size:22px
+	color:black;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
 
+ /* background: #fff;*/
+ 
 
+/*  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #e2b607;
+  box-shadow: inset 0 -2px #e2b607;*/
+}
 
+.left{
+	right:35%;
+	font-size:22px
+	color:white;
+	text-align: center;
+	/* text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #2ecc71;*/
+  border: 0;
+/*border-bottom: 2px solid #28be68;*/
+  cursor: pointer;
+/*  -webkit-box-shadow: inset 0 -2px #28be68;
+  box-shadow: inset 0 -2px #28be68;*/
+}
 
-.pickcity{
+.buttons{
+	
+	position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 10%);
+}
+
+.sun-flower-button {
+  position: relative;
+  vertical-align: top;
+  width: 100%;
+  height: 60px;
+  padding: 0;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #f1c40f;
+  border: 0;
+  border-bottom: 2px solid #e2b607;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #e2b607;
+  box-shadow: inset 0 -2px #e2b607;
+}
+.sun-flower-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.random{
 	overflow:hidden;
 	height:100vh;
 }
@@ -560,29 +706,16 @@ i{
 /* Extra Small Devices, .visible-xs-* */
 @media (max-width: 767px) {
 	
-.pickcity #location{
-	font-size:20px;
 }
 
 
 }
+
+/* Small Devices, .visible-sm-* */
+@media (min-width: 768px) and (max-width: 991px) {}
 
 /* Medium Devices, .visible-md-* */
-@media (min-width: 979px) and (max-width: 1199px) {}
-
-/*.about{
-		margin:20px 40px;
-		width:auto;
-		/*margin-right:10%;*/
-
-		}*/
-
-
+@media (min-width: 992px) and (max-width: 1199px) {}
 
 /* Large Devices, .visible-lg-* */
 @media (min-width: 1200px) {}
-
-.try{
-	float:right;
-	
-}

@@ -1,35 +1,15 @@
 extends ./partials.pug
 block content
-	
-	section.random
-		.city
-			div(class="image", style='background-image: url('+ cityPicker.image +');') 
-			#location #{cityPicker.city}, 
-
-				span#small #{cityPicker.country}
+	nav#mainNav.navbar.navbar-default.navbar-fixed-top
+			.navbar-header
+						|
+						a.navbar-brand.page-scroll(href='/') Home
+			
+						a.navbar-brand.page-scroll.try(href='/destination') Travel Next
+	section.pickcity
+		div(class="image", style='background-image: url('+ cityPicker.image +');') 
+		#location #{cityPicker.city}, #{cityPicker.country}
 		.buttons
+			button.btn.btn-2.btn-red(onClick="location.href='/destination/" + cityPicker.country + "'") Take me there
 
-
-			p
-                
-				//- button.btn.btn-red.left(onClick="location.href='/destination/'") Another one
-				button.btn.btn-2.btn-2a.btn-red.right(onClick="location.href='/destination/" + cityPicker.country + "'") Take me there
-
-			
-			//- img(src=cityPicker.image)
-		//- h1 Our pick for you:
-
-			//- .pick
-			
-		//- img(src="/img/newyork.jpg")
 		
-	//- div.city-content
-
-	//- 		h2 #{cityPicker.city} - 
-	//- 				span(font-size: 10px) #{cityPicker.country}
-
-	//- 		button.btn.btn-2.left(onClick="location.href='/destination/'") Let's try again
-	//- 		button.btn.btn-2.right(onClick="location.href='/destination/" + cityPicker.country + "'") Take me there
-		p Not happy?
-			a(onClick="location.href='/destination'", value='click here')  Try Again!
-		//- button.btn.btn-1(onClick="location.href='/destination'" value='click here') Let's give it another try

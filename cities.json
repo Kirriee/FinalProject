@@ -38,7 +38,7 @@
 
 }, 
 {
-	"city":"Torres del Paine",
+	"city":"Torres",
 	"country": "Patagonia",
 	"description":"Soaring almost vertically more than 2000m above the Patagonian steppe, the granite pillars of Torres del Paine (Towers of Paine) dominate the landscape of what may be South America's finest national park. Before its creation in 1959, the park was part of a large sheep estancia, and it's still recovering from nearly a century of overexploitation of its pastures, forests and wildlife.",
 	"image":"/img/torres2.jpg",
@@ -66,7 +66,7 @@
 
 },
 {
-	"city":"Cabo Poloino",
+	"city":"Cabo Polonio",
 	"country": "Uruguay",
 	"description":"Northeast of La Paloma at Km264.5 on Ruta 10 lies the turnoff to Cabo Polonio, one of Uruguay’s wildest areas and home to its second-biggest sea-lion colony, near a tiny fishing village nestled in sand dunes on a windswept point crowned by a lonely lighthouse. In 2009 the region was declared a national park, under the protective jurisdiction of Uruguay’s SNAP program",
 	"image":"/img/cabo.jpg",

@@ -1,101 +1,28 @@
 extends ./partials.pug
 block content
-
-	section
-		.countryimage
-			div(class="image medium ", style='background-image: url('+ country.image+');')
-				
-				//- .content
-				//- 	img(src='http://cdn4.iconfinder.com/data/icons/socialmediaicons_v120/48/google.png', alt='')
-				//- 	h3 Title
-				//- 	p Some Description
+	nav#mainNav.navbar.navbar-default.navbar-fixed-top
+			.navbar-header
+						|
+						a.navbar-brand.page-scroll(href='/') Home
 			
-			#location #{country.country}
-				img#locationimg(src='/../img/icon.png')
-
-			
+						a.navbar-brand.page-scroll.try(href='/destination') Travel Next
+	section.countryimage
+		div(class="image medium ", style='background-image: url('+ country.image+');')
+		#location #{country.country}
+			img#locationimg(src='/../img/icon.png')
 	section.description
 		.container
 			.row
 				.col-md-4.middle
 					.polaroid-images
 						img(src=country.poloroid height='200',class="img-responsive")
-						
-						//- p #{country.caption}
-						//- img(height='200', src='images/water.jpg', alt='Cave', title='Cave')
-						//- a(href='', title=country.caption)
-							
+						p #{country.caption}
 				.about
 					h3#about-heading.section-heading About #{country.city}
-
 					p.text-left #{country.description}
-	//- section.facts
-	//- 	.container
-	//- 		.row
-	//- 			.col-sm-12.text-center
-	//- 				h1.section-heading Facts
-	//- 			.col-md-3.middle
-	//- 				span.fa-stack.fa-4x
-	//- 					i.fa.fa-circle.fa-stack-2x.icon-background
-	//- 					i.fa.fa-comment.fa-stack-1x.fa-inverse
-	//- 				h4.service-heading English
-	//- 				//- p.text-muted English
-	//- 			.col-md-3.middle
-	//- 				span.fa-stack.fa-4x
-	//- 					i.fa.fa-circle.fa-stack-2x.icon-background
-	//- 					i.fa.fa-money.fa-stack-1x.fa-inverse
-	//- 				h4.service-heading Currency
-	//- 				//- p Dollar
-					
-	//- 			.col-md-3.middle
-	//- 				span.fa-stack.fa-4x
-	//- 					i.fa.fa-circle.fa-stack-2x.icon-background
-	//- 					i.fa.fa-users.fa-stack-1x.fa-inverse
-	//- 				h4 XXXX
-	//- 			.col-md-3.middle
-	//- 				span.fa-stack.fa-4x
-	//- 					i.fa.fa-circle.fa-stack-2x.icon-background
-	//- 					i.fa.fa-time.fa-stack-1x.fa-inverse
-	//- 				h4 GWT +1
-
+	
 	.countryimage
 		div(class="image medium ", style='background-image: url('+ country.image+');')
 					
 
-	//- section.todo
-	//- 	.container
-	//- 		.row
-	//- 			.col-sm-12.text-center
-	//- 				h1.section-heading To do's
-	//- 				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rutrum tincidunt felis, sit amet ullamcorper libero hendrerit sit amet. In sagittis orci eros, eu consectetur tellus iaculis a. Duis imperdiet mauris sit amet sapien dapibus, non porta sapien sollicitudin. Nunc ex felis, faucibus eget ipsum eu, commodo faucibus odio. Nulla non pharetra ipsum. Aenean luctus luctus fermentum. In venenatis lorem ac nunc sagittis interdum. Aenean venenatis in est elementum pulvinar. Vestibulum elementum sed urna sed tempor. Vestibulum ante justo, consequat sed eros consectetur, ultrices lacinia lectus. Maecenas ac luctus erat.
-			
-
-
-
-
-	//- 	.container-fluid
-	//- 		.row
-	//- 			.col-sm-4
-	//- 				.square
-	//- 					.card-title
-	//- 						h3 Facts
-	//- 					p
-	//- 							i.fa.fa-comment-o.fa-1x 
-	//- 							span English
-	//- 					p 
-	//- 							i.fa.fa-money.fa-1x 
-	//- 							span Dollar
-	//- 					p 
-	//- 							i.fa.fa-money.fa-1x 
-	//- 							span hours
-	//- 			.col-sm-4
-	//- 				.square
-	//- 					.card-title.up
-	//- 						h3 Description
-	//- 					p Hier komt een omschrijving
-	//- 			.col-sm-4
-	//- 				.square
-	//- 					.card-title
-	//- 						h3 To do's
-	//- 					p Hier komen recommendations
-
+	

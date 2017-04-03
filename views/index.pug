@@ -1,10 +1,6 @@
-extends ./partials.pug
+extends ./partials.pug 
 block content
-	
-						
-	section
-		.header
-			h1 Find the Capital
-		.content
-			button.btn.btn-2.btn-2a Button
-			
+		header
+			h1 Where to travel next?
+			p#sub-title Travel Next generates locations based on my own travel experiences. 
+			button.btn.btn-1.btn-red(onClick="location.href='/destination'" value='random') Find a destination

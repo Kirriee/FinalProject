@@ -1,7 +1,6 @@
 //- JAVASCRIPT CODE TO COMMUNICATE WITH DATABASE BY USING SEQUELIZE //
 
-
-// SET UP CONNECTION WITH DATABASE
+// set up connection with database
 const Sequelize = require('sequelize')
 const fileReader = require (__dirname + "/../json-file-reader");
 
@@ -15,11 +14,9 @@ if (process.env.DATABASE_URL) {
 } else {
   // the application is executed on the local machine
   var db = new Sequelize ('postgres://' + process.env.POSTGRES_USER + ':' + process.env.POSTGRES_PASSWORD + '@localhost/trips');
-
   }
 
-
-// TESTING DATABASE CONNECTION
+// testing database connection
 db
 .authenticate()
 .then(function(err) {
@@ -28,7 +25,7 @@ db
 	console.log('Unable to connect to the database:', err);
 });
 
-// DEFINE MODEL (W/ DESTINATIONS)
+// desfine model (w/ destinations)
 const Destination = db.define('destination', {
 	city: {
 		type: Sequelize.STRING,
@@ -57,8 +54,7 @@ const Destination = db.define('destination', {
 
 });
 
-
-// SYNC DATABASE
+// sync database
 db.sync({
 	force:true			// drops tables before recreating
 }).then(function(){
@@ -74,42 +70,13 @@ db.sync({
 				image:(cities[i].image),
 				poloroid:(cities[i].poloroid),
 				caption:(cities[i].caption)
-
 			})
 		}
 	}
-	fileReader('./cities.json', getCity) // PASS FILE TO JSON FILE READER
-
-	
-
-
-
-	// return Destination.create ({
-	// 	city: "Barcelona",
-	// 	country: "Spain"
-	// }).then(function(){
-	// 	return Destination.create ({
-	// 		city: "Tel Aviv",
-	// 		country: "Israel"
-	// 	})
-	// }).then(function(){
-	// 	return Destination.create ({
-	// 		city: "Moscow",
-	// 		country: "Russia"
-	// 	})
-	// })
-	// .catch ( function (error){
-	// 	console.log(error)
-	// })
+	fileReader('./cities.json', getCity) // pass file to JSON file reader
 })
 
-
-
-
-
-
-
-// EXPORT MODEL TO APP.JS
+// export model to app.js
 module.exports = {
 	db: db,
 	Destination:Destination
