@@ -12,8 +12,7 @@ personalised in the nearby future.
 * [PostgreSQL](https://www.postgresql.org/docs/) 
 * [Express](https://expressjs.com/en/api.html/) 
 * [Pug](https://pugjs.org/api/getting-started.html)
-* [jQuery](https://jquery.com/)
-* [Sass](http://sass-lang.com/guide)
+* CSS
 
 # Installation
 
