@@ -2,7 +2,7 @@
 
 Final Project for the New York Code + Design Academy.
 The idea of the app is to randomly generate travel locations based on my own travel experiences.
-All pictures used in the app are taken by me. The 'about' text per destination is copied from the interent but will be
+All pictures used in the app are taken by me. The 'about' text per destination is copied from the internet but will be
 personalised in the nearby future. 
 
 ## Built With
